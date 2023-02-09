@@ -1,5 +1,7 @@
 import "./App.css";
-import "dotenv/config";
+// import "dotenv/config";
+import * as dotenv from "dotenv";
+dotenv.config();
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import LandingPage from "./Pages/LandingPage";
 import Home from "./Pages/Home";
