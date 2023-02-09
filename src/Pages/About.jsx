@@ -15,7 +15,7 @@ import maru from "../Assets/maru.png";
 import carlos from "../Assets/carlos.png";
 import lucas from "../Assets/lucas.png";
 import './About.css';
-import logoLinkedIn from "../Assets/logoLinkedIn.svg";
+import LogoLink from "../Assets/LogoLink";
 
 
 function About() {
@@ -70,7 +70,7 @@ function About() {
                     <h5 className="card-title">Enzo Sanchez</h5>
                     <p className="card-text">FULL STACK WEB DEVELOPER</p>
                     <p className="card-text">
-                      <img alt="logo" src={logoLinkedIn} id="enzo" onClick={(e) => handleLinkedIn(e)} className="link-linkedIn"/>
+                      <img alt="logo" src={LogoLink} id="enzo" onClick={(e) => handleLinkedIn(e)} className="link-linkedIn"/>
                     </p>
                   </div>
                 </div>
@@ -81,7 +81,7 @@ function About() {
                     <p className="card-text">FULL STACK WEB DEVELOPER</p>
                     <p>
                     <p className="card-text">
-                      <img alt="logo" src={logoLinkedIn} id="lenny" onClick={(e) => handleLinkedIn(e)} className="link-linkedIn"/>
+                      <img alt="logo" src={LogoLink} id="lenny" onClick={(e) => handleLinkedIn(e)} className="link-linkedIn"/>
                     </p>
                     </p>
                   </div>
@@ -94,7 +94,7 @@ function About() {
 
                     <p className="card-text">
                     <p className="card-text">
-                      <img alt="logo" src={logoLinkedIn} id="aaron" onClick={(e) => handleLinkedIn(e)} className="link-linkedIn"/>
+                      <img alt="logo" src={LogoLink} id="aaron" onClick={(e) => handleLinkedIn(e)} className="link-linkedIn"/>
                     </p>
                     </p>
                   </div>
@@ -110,7 +110,7 @@ function About() {
                     <p className="card-text">FULL STACK WEB DEVELOPER</p>
                     <p className="card-text">
                     <p className="card-text">
-                      <img alt="logo" src={logoLinkedIn} id="william" onClick={(e) => handleLinkedIn(e)} className="link-linkedIn"/>
+                      <img alt="logo" src={LogoLink} id="william" onClick={(e) => handleLinkedIn(e)} className="link-linkedIn"/>
                     </p>
                     </p>
                   </div>
@@ -124,7 +124,7 @@ function About() {
                     <p className="card-text">FULL STACK WEB DEVELOPER</p>
                     <p className="card-text">
                     <p className="card-text">
-                      <img alt="logo" src={logoLinkedIn} id="lucas" onClick={(e) => handleLinkedIn(e)} className="link-linkedIn"/>
+                      <img alt="logo" src={LogoLink} id="lucas" onClick={(e) => handleLinkedIn(e)} className="link-linkedIn"/>
                     </p>
                     </p>
                   </div>
@@ -136,7 +136,7 @@ function About() {
                     <p className="card-text">FULL STACK WEB DEVELOPER</p>
                     <p className="card-text">
                     <p className="card-text">
-                      <img alt="logo" src={logoLinkedIn} id="tobi" onClick={(e) => handleLinkedIn(e)} className="link-linkedIn"/>
+                      <img alt="logo" src={LogoLink} id="tobi" onClick={(e) => handleLinkedIn(e)} className="link-linkedIn"/>
                     </p>
                     </p>
                   </div>
@@ -148,7 +148,7 @@ function About() {
                     <p className="card-text">FULL STACK WEB DEVELOPER</p>
                     <p className="card-text">
                     <p className="card-text">
-                      <img alt="logo" src={logoLinkedIn} id="maru" onClick={(e) => handleLinkedIn(e)} className="link-linkedIn"/>
+                      <img alt="logo" src={LogoLink} id="maru" onClick={(e) => handleLinkedIn(e)} className="link-linkedIn"/>
                     </p>
                     </p>
                   </div>
@@ -159,7 +159,7 @@ function About() {
                     <h5 className="card-title">Carlos Candioti</h5>
                     <p className="card-text">FULL STACK WEB DEVELOPER</p>
                     <p className="card-text">
-                    <img alt="logo" src={logoLinkedIn} id="carlos" onClick={(e) => handleLinkedIn(e)} className="link-linkedIn"/>
+                    <img alt="logo" src={LogoLink} id="carlos" onClick={(e) => handleLinkedIn(e)} className="link-linkedIn"/>
                     </p>
                   </div>
                 </div>

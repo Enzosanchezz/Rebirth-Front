@@ -1,6 +1,6 @@
 import React from "react"; //warning-> { useEffect }
 import MessageBoard from "../MessageBoard/MessageBoard";
-import Menu from "../../../../../Assets/Messageboard/menu.svg";
+import Menu from "../../../../../Assets/Messageboard/Menu";
 import LateralBar from "./LateralBar";
 import "../../../../../Pages/Dashboard.css";
 import "./AdoptionRequest.css";
