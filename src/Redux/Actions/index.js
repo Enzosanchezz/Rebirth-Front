@@ -40,7 +40,7 @@ import {
   // POST_SUPPORT_FORM, -> warning
 } from "./actionTypes";
 
-const { REACT_APP_SERVER }  = process.env;
+const {REACT_APP_SERVER}  = process.env;
 
 export function getTestimonials(){
   return async function(dispatch){
